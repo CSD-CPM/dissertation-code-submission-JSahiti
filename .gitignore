@@ -1,23 +1,51 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# =========================================================
+# Root .gitignore for dissertation-code-submission-JSahiti
+# Covers both client/ and server/ projects
+# =========================================================
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# === Node dependencies ===
+node_modules/
+client/node_modules/
+server/node_modules/
 
-# testing
-/coverage
+# === Environment files ===
+.env
+.env.*
+server/.env
+client/.env
 
-# production
-/build
+# Keep safe example env templates
+!server/.env.example
+!client/.env.example
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# === Build outputs ===
+build/
+dist/
+client/build/
+server/build/
+server/dist/
 
+# === Logs ===
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+# === Testing coverage ===
+coverage/
+client/coverage/
+server/coverage/
+
+# === System files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE / Editor settings ===
+.vscode/
+.idea/
+*.swp
+
+# === Misc ===
+.pnp
+.pnp.js
