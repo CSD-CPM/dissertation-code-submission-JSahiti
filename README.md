@@ -23,7 +23,7 @@ An instructor-oriented web app that automates peer-evaluation grade computation 
 - [Contact](#contact)
 
 ## About the Project
-**Grade Assist** reduces manual work and errors when calculating grades from peer-assessment data. It focuses on clarity, speed, and repeatable results for busy instructors.
+**Grade Assist** reduces manual work and errors when calculating grades from peer-assessment data. It is an instructor-oriented web app that automates peer-evaluation grade computation for group projects.
 
 ## Key Features
 - **CSV Ingest (TEAMMATES format)** with preview & validation  
